@@ -1,5 +1,27 @@
 {
   "devDependencies": {
+    "cssnano": "^4.1.7",
+    "gh-pages": "^2.0.1",
     "sass": "^1.14.3"
-  }
+  },
+  "name": "gimmeaparcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofhatkea/gimmeaparcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jofhatkea/gimmeaparcel/issues"
+  },
+  "homepage": "https://github.com/jofhatkea/gimmeaparcel#readme",
+  "description": ""
 }
